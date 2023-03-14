@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+          <img src="logo.png" alt="" width="40" class="logo">
+
+            <h4>CONVERTER</h4>
+           <nav>
+                <a href=""><span><img src="home.png" alt="" width="20"></span><span>Home</span></a>
+                <a href=""><span><img src="about.png" alt="" width="20"></span> <span>About App</span> </a>
+                <a href=""><span><img src="download.png" alt="" width="20"></span> <span>Download</span> </a>
+                <a href=""><span><img src="support.png" alt="" width="20"></span> <span>Technical Support</span> </a>
+                <a href=""><span><img src="contact.png" alt="" width="20"></span> <span>Contact us</span> </a>
+
+           </nav>
+
+           <img src="menu.png" alt="" width="30" class="menu">
+    </header>
+    <main>
+           <section class="currency">
+            
+                        <span>
+                             <label>From</label>
+                              <select class="from">
+                                   <option value="">---</option>
+                                   <option value="USD">USD</option>
+                                   <option value="EUR">EUR</option>
+                                   <option value="GBP">GBP</option>
+                                   <option value="NGN">NGN</option>
+                              </select>
+                        </span>
+                        
+                                  <span class="change">⇆</span>
+                      
+                        <span>
+                            <label>To</label>
+                             <select class="to">
+                                  <option value="">---</option>
+                                  <option value="USD">USD</option>
+                                  <option value="EUR">EUR</option>
+                                  <option value="GBP">GBP</option>
+                                  <option value="NGN">NGN</option>
+                             </select>
+                       </span>
+           
+           </section>
+
+           <!-- INPUT SECTION -->
+           <section class="user-input-section">
+               <input type="number" placeholder="Enter Amount" class="currency-value">
+               <img src="right.png" alt=""  width="40"class="btn-convert">
+           </section>
+
+           <!-- RESULT SECTION -->
+           <section class="result-section">
+                <h1> 
+                    <span class="symbol">₦</span><span class="amount-value">0.00</span>
+               </h1>
+           </section>
+    </main>
+    <footer>
+       <p>
+             &copy; Copyright 2023. All rights reserved. Designed by Codeprof Academy.
+       </p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
